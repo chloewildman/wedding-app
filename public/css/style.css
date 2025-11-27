@@ -1,19 +1,19 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    max-width: 100%;
-    margin: 0 auto;
-    background-color: #263329;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #263329;
 }
 
 header {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:#374a3c;
-    border-bottom: 1px solid #263329;
-    margin-bottom: 3px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #374a3c;
+  border-bottom: 1px solid #263329;
+  margin-bottom: 3px;
 }
 
 html {
@@ -21,12 +21,12 @@ html {
 }
 
 header img {
-    max-width: 30vw;
-    height: auto;
+  max-width: 30vw;
+  height: auto;
 }
 
 label.navIcon {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .navButton {
@@ -47,71 +47,71 @@ i {
 
 
 nav {
-    width: 100%;
+  width: 100%;
 }
 
 .navBar {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #374a3c;
-    margin-top: 5px;
-    padding: 10px;
-    border: 2px solid #263329;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #374a3c;
+  margin-top: 5px;
+  padding: 10px;
+  border: 2px solid #263329;
 }
 
 .navLink {
-    display: block;
-    text-decoration: none;
-    background-color: #374a3c;
-    color: white;
-    padding: 10px 20px;
-    margin: 0 1rem;
-    border-radius: 5px;
+  display: block;
+  text-decoration: none;
+  background-color: #374a3c;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 1rem;
+  border-radius: 5px;
 }
 
 .navLink.active {
-    background-color: #263329;
-    color: white;
+  background-color: #263329;
+  color: white;
 }
 
 .navLink:hover {
-    background-color: #263329;
-    text-decoration: none;
-    color: white;
+  background-color: #263329;
+  text-decoration: none;
+  color: white;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #78937f;
-    margin-top: 1vh;
-    padding:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #78937f;
+  margin-top: 1vh;
+  padding: 20px;
 }
 
-footer > hr {
-    width: 60vw;
-    border-width: 1px;
-    border-color: #263329;
-    opacity: 50%;
+footer>hr {
+  width: 60vw;
+  border-width: 1px;
+  border-color: #263329;
+  opacity: 50%;
 }
 
 
 .toTop {
-    top: 0px;
-    right: 15vw;
-    background-color: #ECF0F1;
-    color: #263329;
-    border-radius: 5px;
-    padding: 3px;
-    text-decoration: none;
-    font-size: 16px;
+  top: 0px;
+  right: 15vw;
+  background-color: #ECF0F1;
+  color: #263329;
+  border-radius: 5px;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 p {
@@ -120,14 +120,35 @@ p {
 }
 
 .toTop::before {
-    content: " ↑ ";
-    color: #263329;
+  content: " ↑ ";
+  color: #263329;
+}
+
+.CountdownContainer {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  bottom: 10px;
+  right: 10px;
+  width: 15%;
+  z-index: 9998;
+  padding: 5px;
+}
+
+.CountdownContainer img {
+  max-width: 20px;
 }
 
 @media (max-width: 750px) {
   header img {
     max-width: 70vw;
-}
+  }
+
   .navIcon {
     display: flex;
     justify-content: center;
@@ -146,7 +167,7 @@ p {
     padding: 0;
   }
 
-  .navButton:checked + .navIcon + nav .navBar {
+  .navButton:checked+.navIcon+nav .navBar {
     display: flex;
   }
 
