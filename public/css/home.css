@@ -1,0 +1,61 @@
+main {
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+}
+
+.informationContainer {
+    opacity: 95%;
+    padding: 2em;
+    max-width: 960px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    margin: 1em 0em;
+}
+
+main img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.engagementStoryContainer {
+    background-color: #ECF0F1;
+    padding: 2em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.engagementStoryContainer img {
+    width: 34%;
+    height: auto;
+}
+
+.engagementStory {
+    padding: 0px 2em;
+}
+
+@media (max-width: 750px) {
+    .engagementStoryContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .engagementStoryContainer img {
+        width: 80%;
+        padding-bottom: 2vh;
+    }
+}
