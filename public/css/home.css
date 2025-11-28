@@ -1,11 +1,10 @@
-main {
+.homeMain {
     margin: 0 auto;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     background-color: #fff;
 }
 
