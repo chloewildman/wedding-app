@@ -2,14 +2,15 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Countdown from "./components/Countdown.jsx";
 import Home from "./pages/Home.jsx";
 import OurStory from "./pages/OurStory.jsx";
+import Location from "./pages/Location.jsx";
 
 function App() {
   return (
     <div>
       <header id="#top">
         <img src="./images/headerAlt.png" alt="'Michael and Chloe' in cursive."></img>
-        <input type="checkbox" id="navButton" class="navButton"></input>
-        <label for="navButton" class="navIcon">☰ Menu</label>
+        <input type="checkbox" id="navButton" className="navButton"></input>
+        <label for="navButton" className="navIcon">☰ Menu</label>
         <nav>
           <ul className="navBar">
             <li><Link to="/" className="navLink">Home</Link></li>
@@ -26,6 +27,7 @@ function App() {
           <Route path="/" element={<Home />} />
           {/* Other pages */}
           <Route path="/story" element={<OurStory />} />
+          <Route path="/location" element={<Location />} />
         </Routes>
         <div className="CountdownContainer">
           <h1>
@@ -38,7 +40,7 @@ function App() {
       <footer>
         &copy; 2025 Chloe Wildman - All rights reserved
         <hr></hr>
-        <a href="#top" class="toTop">Back to Top</a>
+        <a href="#top" className="toTop">Back to Top</a>
       </footer>
     </div>
 
