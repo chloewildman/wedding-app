@@ -15,7 +15,7 @@ function Countdown() {
   return (
     <div className="Countdown">
       <p>
-        {timeLeft.days} days - {timeLeft.hours}:{timeLeft.minutes}:{timeLeft.seconds}
+        {timeLeft.days} days - {timeLeft.hours.toString().padStart(2, '0')}:{timeLeft.minutes.toString().padStart(2, '0')}:{timeLeft.seconds.toString().padStart(2, '0')}
       </p>
     </div>
   );
