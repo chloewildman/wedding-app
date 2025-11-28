@@ -80,17 +80,17 @@ function Rsvp() {
                                 Contact information
                             </legend>
                             <div className="field">
-                                <label htmlFor="firstName">First name:</label>
+                                <label htmlFor="firstName" className="contactLabel">First name:</label>
                                 <input type="text" name="firstName" id="firstName"></input>
                                 <span className="error" id="firstNameError"></span>
                             </div>
                             <div className="field">
-                                <label htmlFor="lastName">Last name:</label>
+                                <label htmlFor="lastName" className="contactLabel">Last name:</label>
                                 <input type="text" name="lastName" id="lastName"></input>
                                 <span className="error" id="lastNameError"></span>
                             </div>
                             <div className="field">
-                                <label htmlFor="email">Email:</label>
+                                <label htmlFor="email" className="contactLabel">Email:</label>
                                 <input type="email" name="email" id="email"></input>
                                 <span className="error" id="emailError"></span>
                             </div>
@@ -132,10 +132,10 @@ function Rsvp() {
                             <legend>
                                 Please check off any items that you can bring.
                             </legend>
-                            <input type="checkbox" name="items" id="water" value="subscribe"></input><label htmlFor="water">Water</label>
-                            <input type="checkbox" name="items" id="beer" value="subscribe"></input><label htmlFor="beer">Beer</label>
-                            <input type="checkbox" name="items" id="wine" value="subscribe"></input><label htmlFor="wine">Wine</label>
-                            <input type="checkbox" name="items" id="liquor" value="subscribe"></input><label htmlFor="liquor">Liquor</label>
+                            <input type="checkbox" name="items" id="water" value="subscribe"></input><label htmlFor="water">Water</label><br></br>
+                            <input type="checkbox" name="items" id="beer" value="subscribe"></input><label htmlFor="beer">Beer</label><br></br>
+                            <input type="checkbox" name="items" id="wine" value="subscribe"></input><label htmlFor="wine">Wine</label><br></br>
+                            <input type="checkbox" name="items" id="liquor" value="subscribe"></input><label htmlFor="liquor">Liquor</label><br></br>
                             <input type="checkbox" name="items" id="dessert" value="subscribe"></input><label htmlFor="dessert">Dessert</label>
                             <span className="error" id="itemsError"></span>
                         </fieldset>

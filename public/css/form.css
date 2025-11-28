@@ -3,7 +3,7 @@
     display: grid;
     place-items: center;
     background-color: #374a3c;
-    max-width: 50vw;
+    width: 50vw;
     margin: 0 auto;
     border-radius: 8px;
     padding: 13px;
@@ -11,7 +11,7 @@
 
 fieldset {
     border: 1px solid #ccc;
-    padding: 1.5em 1em 1em;
+    padding: 1em 1em;
     position: relative;
     margin-bottom: 1.5rem;
     background-color: white;
@@ -33,12 +33,11 @@ legend {
 
 label {
     display: inline-block;
-    width: 100px;
     margin-top: 1em;
 }
 
-input {
-    margin-top: 2px;
+.contactLabel {
+    width: 100px;
 }
 
 .error {
