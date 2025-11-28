@@ -1,5 +1,5 @@
 
-main {
+.itinerary {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +23,7 @@ main {
     height: 98%;
 }
 
-h2 {
+.itineraryDayHeader {
     font-size: 20pt;
     margin: 3vh 0px;
     color: white;
@@ -39,9 +39,9 @@ h2 {
 }
 
 .time::after {
-    content: "";                  /* Required for ::after to render */
-    display: block;                /* Make it a block so it spans full width */
-    margin-top: 8px;               /* Space above the line */
+    content: "";    
+    display: block;    
+    margin-top: 8px;              
     border-bottom: 1px solid #263329;
 }
 

@@ -28,10 +28,10 @@ function Itinerary({ events }) {
 
   return (
     <div className="Itinerary">
-      <h2>Day 1</h2>
+      <h2 className="itineraryDayHeader">Day 1</h2>
       <ItineraryList events={day1Events} />
 
-      <h2>Day 2</h2>
+      <h2 className="itineraryDayHeader">Day 2</h2>
       <ItineraryList events={day2Events} />
     </div>
   );
