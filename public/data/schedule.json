@@ -1,0 +1,68 @@
+[
+    {
+        "day": 1,
+        "id": "1-1200",
+        "time": "12:00PM",
+        "activity": "Guest arrival"
+    },
+    {
+        "day": 1,
+        "id": "1-0100",
+        "time": "12:00PM to 1:00PM",
+        "activity": "Hors d'oeuvres"
+    },
+    {
+        "day": 1,
+        "id": "1-0130",
+        "time": "1:30PM",
+        "activity": "Guests settle in at ceremony"
+    },
+    {
+        "day": 1,
+        "id": "1-0200",
+        "time": "2:00PM",
+        "activity": "Ceremony"
+    },
+    {
+        "day": 1,
+        "id": "1-0300",
+        "time": "3:00PM",
+        "activity": "Meet in kitchen for dinner"
+    },
+    {
+        "day": 1,
+        "id": "1-0400",
+        "time": "4:00PM to 5:00PM",
+        "activity": "Cook dinner"
+    },
+    {
+        "day": 1,
+        "id": "1-0515",
+        "time": "5:15PM",
+        "activity": "Break bread together"
+    },
+    {
+        "day": 1,
+        "id": "1-0700",
+        "time": "7:00PM",
+        "activity": "Games, drinks, relax!"
+    },
+    {
+        "day": 2,
+        "id": "2-0800",
+        "time": "8:00AM",
+        "activity": "Breakfast - please feel free to go out with some folks you just met!"
+    },
+    {
+        "day": 2,
+        "id": "2-1100",
+        "time": "11:00AM",
+        "activity": "Outdoor casual reception"
+    },
+    {
+        "day": 2,
+        "id": "2-0500",
+        "time": "5:00PM",
+        "activity": "Guest dismissal"
+    }
+]

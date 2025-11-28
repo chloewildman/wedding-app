@@ -3,6 +3,7 @@ import Countdown from "./components/Countdown.jsx";
 import Home from "./pages/Home.jsx";
 import OurStory from "./pages/OurStory.jsx";
 import Location from "./pages/Location.jsx";
+import Itinerary from "./pages/Itinerary.jsx";
 
 function App() {
   return (
@@ -25,9 +26,9 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* Other pages */}
           <Route path="/story" element={<OurStory />} />
           <Route path="/location" element={<Location />} />
+          <Route path="/itinerary" element={<Itinerary />} />
         </Routes>
         <div className="CountdownContainer">
           <h1>
