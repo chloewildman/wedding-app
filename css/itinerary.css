@@ -1,0 +1,59 @@
+
+.itinerary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.ItineraryList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: 1fr;
+    margin: 2vh 1vw;
+}
+
+.ItineraryEvent {
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    height: 98%;
+}
+
+.itineraryDayHeader {
+    font-size: 20pt;
+    margin: 3vh 0px;
+    color: white;
+}
+
+.time {
+    font-weight: bold;
+}
+
+.time::before {
+    content: '✧ ';
+    color: #263329;
+}
+
+.time::after {
+    content: "";    
+    display: block;    
+    margin-top: 8px;              
+    border-bottom: 1px solid #263329;
+}
+
+.schedule {
+
+    border-left: 1px solid white;
+    padding-left: 1rem;
+    color: white;
+}
+
+@media (max-width: 750px) {
+    .ItineraryList {
+        grid-template-columns: 1fr;
+    }
+}

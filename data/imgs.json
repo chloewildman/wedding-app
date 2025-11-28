@@ -1,0 +1,151 @@
+{
+    "imgs": [
+        {
+            "id": "image1",
+            "year": "2023",
+            "title": "Appa with a Penn State bandana.",
+            "description": "Appa is part of so many of our favorite memories. There are too many photos of Appa to choose from, so here is Appa representing our Alma Mater.",
+            "url": "/images/imageGallery/appaPennState.JPG"
+        },
+        {
+            "id": "image2",
+            "year": "2020",
+            "title": "Michael and Chloe at a OKC Thunder game in Philadelphia, PA.",
+            "description": "We went to an Oklahoma City Thunder basketball game in Philadelphia, PA as a Christmas gift to Michael. This was Chloe's first introduction to Chickies and Pete's fries, and a life-changing one.",
+            "url": "/images/imageGallery/basketball.JPG"
+        },
+        {
+            "id": "image3",
+            "year": "2024",
+            "title": "Michael and Chloe at their first trip to Denver, CO for Chloe's work.",
+            "description": "Chloe works for the University of Colorado CCTSI. Annually, they celebrate the end of the year with a Year in Review celebration. In 2024, Chloe was flown out to celebrate with her colleagues, and Michael and Chloe explored Denver for the first time together.",
+            "url": "/images/imageGallery/denver.JPG"
+        },
+        {
+            "id": "image6",
+            "year": "2025",
+            "title": "Michael and Chloe outside of the Phyrst in State College, PA after engagement.",
+            "description": "Chloe graduated just after turning 21, and she was not a party person, so she had never gone to a bar in State College. Following their engagement and dinner, Chloe and Michael visited the Phyrst to celebrate.",
+            "url": "/images/imageGallery/engagedBar.JPG"
+        },
+        {
+            "id": "image7",
+            "year": "2025",
+            "title": "Michael and Chloe's hand beside the message, 'Michael & Chloe 2025'",
+            "description": "We spent the majority of our time in classrooms together, so it only made sense that we celebrate our engagement with a message written in chalk.",
+            "url": "/images/imageGallery/engagedChalkboard.JPG"
+        },
+        {
+            "id": "image8",
+            "year": "2025",
+            "title": "Michael and Chloe at the Nittany Lion Inn after getting engaged.",
+            "description": "After our engagement, we went back to the Nittany Lion Inn to get ready for dinner. We asked a stranger to take a picture for us by asking, 'Can you please take a picture of my partner and I? We just got engaged.' That stranger reminded us that we get to say 'fiance' now.",
+            "url": "/images/imageGallery/engagedInn.jpg"
+        },
+        {
+            "id": "image10",
+            "year": "2025",
+            "title": "Michael, Chloe, and Appa pose on the porch after moving to Sellersville, PA.",
+            "description": "Chloe had pipe dreams of a cute family picture on the porch after a difficult move from Charleston, SC to Sellersville, PA. Appa decided he would make a classic Appa face. This was a challenging move for all of us, but it was a key step in starting the rest of our lives closer to family!",
+            "url": "/images/imageGallery/familyPorch.JPG"
+        },
+        {
+            "id": "image12",
+            "year": "2019",
+            "title": "Michael and Chloe face each other smiling in front of a fountain.",
+            "description": "As we approached our first anniversary, we took some photos at the Penn State Arboretum. This was one of our favorite photos from pictures taken during our first year photoshoot.",
+            "url": "/images/imageGallery/fountain.JPG"
+        },
+        {
+            "id": "image13",
+            "year": "2023",
+            "title": "Michael and Chloe pose at Universal's Halloween Horror Nights.",
+            "description": "We traveled to Orlando, FL to enjoy Universal's Halloween Horror Nights!",
+            "url": "/images/imageGallery/halloweenHorror.JPG"
+        },
+        {
+            "id": "image14",
+            "year": "2021",
+            "title": "Michael's hand holds a heart shaped rock in front of a beautiful beach sunset.",
+            "description": "We visited Virginia Beach, VA for a short vacation. We watched the sunset on the beach and Michael found a small rock shaped like a heart. This trip resulted in a fundamental pillar of our relationship -- watching Survivor. This was where we first experienced Survivor, watching season 28: Cagayan.",
+            "url": "/images/imageGallery/heartBeach.JPG"
+        },
+        {
+            "id": "image15",
+            "year": "2023",
+            "title": "Michael and Chloe smile from inside a helicopter.",
+            "description": "During our trip to Orlando, FL, Michael surprised Chloe with a helicopter tour of the area at night during Disney's fireworks show.",
+            "url": "/images/imageGallery/helicopter.JPG"
+        },
+        {
+            "id": "image17",
+            "year": "2024",
+            "title": "Michael and Chloe laugh heartily at one another in chairs staged across from each other.",
+            "description": "In 2024, we took advantage of living in the south and visited Savannah, GA. This was an amazing weekend trip. As we tried to take some ironic photos, we started laughing and couldn't stop.",
+            "url": "/images/imageGallery/hotelLaughing.JPG"
+        },
+        {
+            "id": "image18",
+            "year": "2023",
+            "title": "Michael sitting in a chair while Chloe stands behind him, both looking off in the distance dramatically.",
+            "description": "Chloe briefly worked at Kiawah Golf Resort on Kiawah Island, which soon became a place we visited often. We are so grateful we got to visit this beautiful island frequently.",
+            "url": "/images/imageGallery/kiawah.JPG"
+        },
+        {
+            "id": "image20",
+            "year": "2022",
+            "title": "Michael and Chloe smile softly at the camera holding mimosas.",
+            "description": "One of our favorite things to do together is go out for breakfast. This photo was taken after we made a difficult choice together that Chloe would leave a challenging work situation. After Chloe's final day, we went out for breakfast to celebrate the end of a difficult time in our lives.",
+            "url": "/images/imageGallery/mimosa.JPG"
+        },
+        {
+            "id": "image24",
+            "year": "2019",
+            "title": "Michael and Chloe pose in front of the LOVE sign in New York City.",
+            "description": "Michael planned a trip to New York City for Chloe's birthday in 2019 to see her favorite musical, the Phantom of the Opera. This was an amazing experience and one that Chloe had wished for since she was just a kid.",
+            "url": "/images/imageGallery/nyLOVE.JPG"
+        },
+        {
+            "id": "image25",
+            "year": "2019",
+            "title": "Michael and Chloe grin with chalk all over their faces.",
+            "description": "While in school together, we would often find a classroom and study in each others company. Occasionally, we would lose the plot and have chalk fights, which involved wiping your fingers on the chalk holder and chasing each other with it.",
+            "url": "/images/imageGallery/chalk.PNG"
+        },
+        {
+            "id": "image26",
+            "year": "2022",
+            "title": "Michael and Chloe smile at the camera happily.",
+            "description": "During our 2022 trip to Orlando, FL, we went out to a nice dinner at Highball & Harvest inside the Ritz Carlton.",
+            "url": "/images/imageGallery/orlandoDinner.JPG"
+        },
+        {
+            "id": "image28",
+            "year": "2022",
+            "title": "Michael and Chloe pose at Harry Potter world in matching shirts.",
+            "description": "Michael read the Harry Potter books for the first time, so we traveled to Orlando, FL in 2022 to visit Harry Potter World. He finally got to enjoy Chloe's favorite ride -- Gringott's Bank.",
+            "url": "/images/imageGallery/potterWorld.JPG"
+        },
+        {
+            "id": "image29",
+            "year": "2020",
+            "title": "A dorm room with rose petals, a bottle of wine, and other trinkets laid out on display.",
+            "description": "Michael visited Chloe at Penn State for Valentine's Day. He surprised Chloe after she returned from work with a cleaned room, rose petals, printed pictures of us, a bottle of wine, and two heart tins of Chick-Fil-A nuggets.",
+            "url": "/images/imageGallery/surprise.JPG"
+        },
+        {
+            "id": "image30",
+            "year": "2025",
+            "title": "Michael and Chloe smile at the camera in a restaurant.",
+            "description": "This was a celebratory lunch after we finished a long weekend of touring apartments and townhomes in Pennsylvania and Delaware. We had finally found the place we wanted.",
+            "url": "/images/imageGallery/tours.JPG"
+        },
+        {
+            "id": "image32",
+            "year": "2019",
+            "title": "An engraved watch that says 'When Everyday Begins, I'll Fall For You Again'",
+            "description": "Chloe's graduation gift to Michael which contained the quote 'When Everyday Begins, I'll Fall For You Again'. The quote comes from the song, 'Dear Bobbie' by Yellowcard.",
+            "url": "/images/imageGallery/watch.JPG"
+        }
+    ]
+}
