@@ -91,7 +91,7 @@ function Gallery() {
 
     return (
         <div className="galleryPage">
-            <h2>Gallery</h2>
+            <h2 className="galleryHeading">Gallery</h2>
             <p>Click on an image to learn more about the memory.</p>
             <div id="imgContainer"></div>
             <div id="lightbox" className="lightbox hidden">
