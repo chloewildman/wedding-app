@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
 import Countdown from "./components/Countdown.jsx";
 import Home from "./pages/Home.jsx";
 import OurStory from "./pages/OurStory.jsx";
@@ -16,12 +16,12 @@ function App() {
         <label htmlFor="navButton" className="navIcon">☰ Menu</label>
         <nav>
           <ul className="navBar">
-            <li><Link to="/" className="navLink">Home</Link></li>
-            <li><Link to="/story" className="navLink">Our Story</Link></li>
-            <li><Link to="/location" className="navLink">Location</Link></li>
-            <li><Link to="/itinerary" className="navLink">Itinerary</Link></li>
-            <li><Link to="/gallery" className="navLink">Gallery</Link></li>
-            <li><Link to="/rsvp" className="navLink">RSVP</Link></li>
+            <li><NavLink to="/" className="navLink">Home</NavLink></li>
+            <li><NavLink to="/story" className="navLink">Our Story</NavLink></li>
+            <li><NavLink to="/location" className="navLink">Location</NavLink></li>
+            <li><NavLink to="/itinerary" className="navLink">Itinerary</NavLink></li>
+            <li><NavLink to="/gallery" className="navLink">Gallery</NavLink></li>
+            <li><NavLink to="/rsvp" className="navLink">RSVP</NavLink></li>
           </ul>
         </nav>
       </header>

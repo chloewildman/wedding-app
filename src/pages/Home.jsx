@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
     return (
         <div className="homeMain">
@@ -5,15 +7,13 @@ function Home() {
             <div className="informationContainer">
                 <h2 className="engagementHeader">We are engaged!</h2>
                 <p>And we want to celebrate with YOU. Please join us for the completely real wedding on September 3, 2026 at
-                    Castle Lorem Ipsum, Pennsylvania. Learn more about the venue by exploring the <a
-                        href="/html/location.html">Location</a> tab.
+                    Castle Lorem Ipsum, Pennsylvania. Learn more about the venue by exploring the <Link to="/location">Location</Link> tab.
                 </p>
-                <p>You can find a description of the anticipated schedule by visiting the <a
-                    href="/html/itinerary.html">Itinerary</a>. Primary guest arrival will begin September 3, 2026 at noon. These
+                <p>You can find a description of the anticipated schedule by visiting the <Link to="/itinerary">Itinerary</Link>. Primary guest arrival will begin September 3, 2026 at noon. These
                     guests
                     will be present for an intimate ceremony. Additional guests are invited to join us the next day for our
                     reception party. You will be receiving an invitation with information about your guest status. After you
-                    have received your formal invitation, please don't forget to <a href="/html/rsvp.html">RSVP</a>.</p>
+                    have received your formal invitation, please don't forget to <Link to="/rsvp">RSVP</Link>.</p>
                 <div className="engagementStoryContainer">
                     <img src={`${import.meta.env.BASE_URL}images/hands.jpeg`} alt="Michael and Chloe sitting on a ledge and laughing."></img>
                     <div className="engagementStory">
@@ -24,7 +24,7 @@ function Home() {
                             revisiting our classrooms and favorite locations, we went to the location of our first date, and
                             Michael
                             proposed. To read more about our
-                            story so far, check out <a href="/html/story.html">Our Story</a>.</p>
+                            story so far, check out <Link to="/story">Our Story</Link>.</p>
                     </div>
                 </div>
             </div>
