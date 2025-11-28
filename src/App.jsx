@@ -4,6 +4,7 @@ import Home from "./pages/Home.jsx";
 import OurStory from "./pages/OurStory.jsx";
 import Location from "./pages/Location.jsx";
 import Itinerary from "./pages/Itinerary.jsx";
+import Gallery from "./pages/Gallery.jsx";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/story" element={<OurStory />} />
           <Route path="/location" element={<Location />} />
           <Route path="/itinerary" element={<Itinerary />} />
+          <Route path="/gallery" element={<Gallery />} />
         </Routes>
         <div className="CountdownContainer">
           <h1>
