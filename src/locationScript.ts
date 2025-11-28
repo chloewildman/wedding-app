@@ -153,7 +153,7 @@ class Place {
             .map(c => `<span class="cuisine-tag">${c}</span>`)
             .join('');
         card.innerHTML = `
-      <h3>${this.name} ${this.cuisine.length > 0 ? cuisineTags : ''}</h3>
+      <h3 class="cardHeader">${this.name} ${this.cuisine.length > 0 ? cuisineTags : ''}</h3>
       <p>${this.address}</p>
     `;
         return card;
