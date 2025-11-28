@@ -5,6 +5,7 @@ import OurStory from "./pages/OurStory.jsx";
 import Location from "./pages/Location.jsx";
 import Itinerary from "./pages/Itinerary.jsx";
 import Gallery from "./pages/Gallery.jsx";
+import Rsvp from "./pages/Rsvp.jsx";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <header id="#top">
         <img src="./images/headerAlt.png" alt="'Michael and Chloe' in cursive."></img>
         <input type="checkbox" id="navButton" className="navButton"></input>
-        <label for="navButton" className="navIcon">☰ Menu</label>
+        <label htmlFor="navButton" className="navIcon">☰ Menu</label>
         <nav>
           <ul className="navBar">
             <li><Link to="/" className="navLink">Home</Link></li>
@@ -31,6 +32,7 @@ function App() {
           <Route path="/location" element={<Location />} />
           <Route path="/itinerary" element={<Itinerary />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/rsvp" element={<Rsvp />} />
         </Routes>
         <div className="CountdownContainer">
           <h1>
