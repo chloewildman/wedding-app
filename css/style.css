@@ -27,7 +27,7 @@ header img {
 }
 
 label.navIcon {
-  max-width: 100%;
+  width: 100%;
 }
 
 .wideImg {
@@ -159,8 +159,9 @@ p {
     display: flex;
     justify-content: center;
     text-align: right;
-    width: 100vw;
+    width: auto;
     font-size: 16px;
+    box-sizing: border-box;
     background-color: #374a3c;
     border: 2px solid #263329;
     margin-top: 5px;
