@@ -61,7 +61,7 @@ label {
     padding: 30px;
 }
 
-.formSubmit {
+button.formSubmit {
     font-size: large;
     font-weight: bold;
     background-color: #374a3c;
@@ -73,7 +73,7 @@ label {
     border-radius: 8px;
 }
 
-.formSubmit:hover {
+button.formSubmit:hover {
     cursor: pointer;
     background-color: #263329;
 }
