@@ -79,19 +79,19 @@ button:hover {
 .localCard {
     padding: 15px 8px;
     margin-top: 5px;
-    border: 1px solid #ddd; 
+    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
 .cuisine-tag {
-  display: inline-block;
-  background-color: #DBE5DE;
-  color: #333;
-  padding: 4px 8px;
-  margin: 2px;
-  border-radius: 12px;
-  font-size: 0.85em;
-  font-weight: 500;
+    display: inline-block;
+    background-color: #DBE5DE;
+    color: #333;
+    padding: 4px 8px;
+    margin: 2px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-weight: 500;
 }
 
 @media (max-width: 800px) {
@@ -106,5 +106,9 @@ button:hover {
     .locationDesc {
         margin-left: 0;
         margin-top: 10px;
+    }
+
+    .locationPage {
+        width: 80vw;
     }
 }
