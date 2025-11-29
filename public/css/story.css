@@ -34,10 +34,10 @@
 
 .eventText img {
     width: 98%;
+    height: 30vh;
     object-fit: cover;
     object-position: center;
     border-radius: 5px;
-    height: 30vh;
     padding: 2px;
 }
 

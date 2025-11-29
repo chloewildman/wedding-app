@@ -1,3 +1,8 @@
+.rsvpTitle {
+    width: 20%;
+    height: auto;
+    margin-bottom: 3vh;
+}
 
 .formContainer {
     display: grid;
@@ -76,9 +81,13 @@ label {
     .formContainer {
         width: 80vw;
     }
+
+    .rsvpTitle {
+        width: 40%;
+    }
+
     label {
         width: 90%;
         margin-top: 1.5em;
     }
 }
-

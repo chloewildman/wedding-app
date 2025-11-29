@@ -30,6 +30,12 @@ label.navIcon {
   max-width: 100%;
 }
 
+.wideImg {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
 .navButton {
   display: none;
 }

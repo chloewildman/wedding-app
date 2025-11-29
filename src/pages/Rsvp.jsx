@@ -74,6 +74,7 @@ function Rsvp() {
         <div className="rsvpPage">
             <div className="generalInfo">
                 <div id="formContainer" className="formContainer">
+                    <img src={`${import.meta.env.BASE_URL}images/RSVP.png`} alt="RSVP in cursive" className="rsvpTitle" title="RSVP in cursive"></img>
                     <form id="rsvpForm">
                         <fieldset>
                             <legend>

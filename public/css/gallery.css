@@ -19,10 +19,10 @@
 
 .galleryImages {
   width: 100%;
+  height: 38vh;
   object-fit: cover;
   object-position: center;
   border-radius: 5px;
-  height: 38vh;
   padding: 2px;
   transition: transform 0.9s ease, box-shadow 0.2s ease;
 }

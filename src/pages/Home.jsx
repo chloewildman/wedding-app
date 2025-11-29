@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Home() {
     return (
         <div className="homeMain">
-            <img src={`${import.meta.env.BASE_URL}images/laughing.JPG`} alt="Michael and Chloe sitting on a ledge and laughing." className="homeImg"></img>
+            <img src={`${import.meta.env.BASE_URL}images/laughing.JPG`} alt="Michael and Chloe sitting on a ledge and laughing." className="wideImg"></img>
             <div className="informationContainer">
                 <h2 className="engagementHeader">We are engaged!</h2>
                 <p className="homeText">And we want to celebrate with YOU. Please join us for the completely real wedding on September 3, 2026 at
@@ -15,7 +15,7 @@ function Home() {
                     reception party. You will be receiving an invitation with information about your guest status. After you
                     have received your formal invitation, please don't forget to <Link to="/rsvp" className="homeLinks">RSVP</Link>.</p>
                 <div className="engagementStoryContainer">
-                    <img src={`${import.meta.env.BASE_URL}images/hands.jpeg`} alt="Michael and Chloe sitting on a ledge and laughing."></img>
+                    <img src={`${import.meta.env.BASE_URL}images/hands.jpeg`} alt="Michael and Chloe's hands displaying the engagement ring."></img>
                     <div className="engagementStory">
                         <h2 className="engagementHeader">How did it happen?</h2>
                         <p className="homeText">We met each other when we both attended the Pennsylvania State University for our
