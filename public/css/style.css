@@ -17,6 +17,10 @@ header {
   margin-bottom: 3px;
 }
 
+b {
+  font-weight: bold;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -31,9 +35,9 @@ label.navIcon {
 }
 
 .wideImg {
-    width: 100%;
-    height: 60vh;
-    object-fit: cover;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
 }
 
 .navButton {
@@ -148,6 +152,50 @@ p {
   font-size: 13pt;
   font-weight: bold;
   color: #263329;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  width: 40%;
+  border-radius: 5px;
+  background-color: #FFF;
+}
+
+.closePopupBtn {
+  align-self: center;
+  font-size: 12pt;
+  margin-top: 24px;
+  padding: 4px 10px;
+  border-radius: 5px;
+  color: #263329;
+  background-color: white;
+  position: static;
+}
+
+.closePopupBtn:hover {
+  color: white;
+  background-color: #263329;
+  cursor: pointer;
+}
+
+.popupTitle {
+  font-size: 14pt;
+  font-weight: bold;
 }
 
 @media (max-width: 750px) {

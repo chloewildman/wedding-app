@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
+import { useState, useEffect } from 'react';
 import Countdown from "./components/Countdown.jsx";
+import Popup from "./components/Popup.jsx";
 import Home from "./pages/Home.jsx";
 import OurStory from "./pages/OurStory.jsx";
 import Location from "./pages/Location.jsx";
@@ -8,6 +10,14 @@ import Gallery from "./pages/Gallery.jsx";
 import Rsvp from "./pages/Rsvp.jsx";
 
 function App() {
+  const [popup, setPopup] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setPopup(true);
+    }, 1000);
+  }, [])
+
   return (
     <div>
       <header id="#top">
@@ -47,6 +57,8 @@ function App() {
         <hr></hr>
         <a href="#top" className="toTop">Back to Top</a>
       </footer>
+      <Popup trigger={popup} setTrigger={setPopup}>
+      </Popup>
     </div>
 
   );

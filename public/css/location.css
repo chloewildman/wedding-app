@@ -13,7 +13,7 @@
     margin-top: 10px;
 }
 
-button {
+.userLocation button {
     background-color: #263329;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 5px;
@@ -24,7 +24,7 @@ button {
     transition: transform 0.9s ease, box-shadow 0.2s ease;
 }
 
-button:hover {
+.userLocation button:hover {
     transform: scale(1.01);
     cursor: pointer;
 }
