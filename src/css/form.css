@@ -64,6 +64,8 @@ label {
 .formSubmit {
     font-size: large;
     font-weight: bold;
+    background-color: #374a3c;
+    color: white;
     display: block;
     margin: 0 auto;
     width: 70%;
@@ -73,8 +75,7 @@ label {
 
 .formSubmit:hover {
     cursor: pointer;
-    background-color: #374a3c;
-    color: white;
+    background-color: #263329;
 }
 
 @media (max-width: 750px) {
