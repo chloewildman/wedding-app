@@ -1,5 +1,8 @@
 import { useEffect } from "react";
 import { getLocalData, getDistanceData, successCallback, errorCallback } from "../locationScript";
+import "../css/reset.css"
+import "../css/location.css"
+import "../css/style.css"
 
 function Location() {
     useEffect(() => {

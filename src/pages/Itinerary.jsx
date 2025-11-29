@@ -1,4 +1,7 @@
 import ItineraryContainer from "../components/ItineraryContainer";
+import "../css/reset.css"
+import "../css/itinerary.css"
+import "../css/style.css"
 
 function Itinerary() {
     return (

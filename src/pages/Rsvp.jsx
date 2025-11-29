@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import "../css/reset.css"
+import "../css/form.css"
+import "../css/style.css"
 
 function Rsvp() {
     const [hasAllergies, setHasAllergies] = useState(null);

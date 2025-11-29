@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import "../css/reset.css"
+import "../css/style.css"
 
 const targetDate = new Date("Sept 3, 2026").getTime();
 

@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import "../css/reset.css"
+import "../css/story.css"
+import "../css/style.css"
 
 function OurStory() {
     return (

@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from "react";
+import "../css/reset.css"
+import "../css/itinerary.css"
+import "../css/style.css"
 
 const apiURL = "./data/schedule.json";
 

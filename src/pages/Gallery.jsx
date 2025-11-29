@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import { populateImage } from "../lib/populateGallery.js";
+import "../css/reset.css"
+import "../css/gallery.css"
+import "../css/style.css"
 
 function Gallery() {
     useEffect(() => {

@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import "../css/reset.css"
+import "../css/home.css"
+import "../css/style.css"
 
 function Home() {
     return (

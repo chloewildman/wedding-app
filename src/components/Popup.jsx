@@ -1,3 +1,5 @@
+import "../css/reset.css"
+import "../css/style.css"
 
 function Popup(props) {
 
