@@ -15,7 +15,7 @@ function OurStory() {
                     <div className="timelineEvent">
                         <span className="arrow"></span>
                         <div className="eventText">
-                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/oldMain.jpg`}></img>
+                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/oldMain.jpg`} alt="A picture of Old Main, a historical building on Penn State campus."></img>
                             <h2>Chloe chooses Penn State</h2>
                             <small>January-July 2018</small>
                             <p>Chloe chooses to go to Penn State for college. She schedules her New Student Orientation,
@@ -47,7 +47,7 @@ function OurStory() {
                     <div className="timelineEvent">
                         <span className="arrow"></span>
                         <div className="eventText">
-                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/firstDate.jpg`}></img>
+                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/firstDate.jpg`} alt="Chloe and Michael smile at the camera laying beside each other on their first date."></img>
                             <h2>First date</h2>
                             <small>September 7, 2018</small>
                             <p>The night of September 7, 2018, Michael and Chloe meet at the HUB lawn on campus. They
@@ -66,7 +66,7 @@ function OurStory() {
                     <div className="timelineEvent">
                         <span className="arrow"></span>
                         <div className="eventText">
-                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/tailgate.jpg`}></img>
+                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/tailgate.jpg`} alt="Michael and Chloe smile in Penn State attire at a tailgate."></img>
                             <h2>The school year comes to an end</h2>
                             <small>May 2019</small>
                             <p>Chloe and Michael spend the school year together.</p>
@@ -75,7 +75,7 @@ function OurStory() {
                     <div className="timelineEvent">
                         <span className="arrow"></span>
                         <div className="eventText">
-                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/MHgrad.jpg`}></img>
+                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/MHgrad.jpg`} alt="Chloe hugs Michael in his cap and gown."></img>
                             <h2>Michael graduates</h2>
                             <small>May 4, 2019</small>
                             <p>Michael graduates from Penn State, beginning Michael and Chloe's long distance journey.
@@ -86,7 +86,7 @@ function OurStory() {
                     <div className="timelineEvent">
                         <span className="arrow"></span>
                         <div className="eventText">
-                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/gazebo1.JPG`}></img>
+                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/gazebo1.JPG`} alt="The silhouette of Michael and Chloe dancing in the Penn State gazebo."></img>
                             <h2>First anniversary</h2>
                             <small>July 2019</small>
                             <p>To celebrate their upcoming first anniversary, they take their first professional photos
@@ -111,7 +111,7 @@ function OurStory() {
                     <div className="timelineEvent">
                         <span className="arrow"></span>
                         <div className="eventText">
-                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/CWgrad.JPG`}></img>
+                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/CWgrad.JPG`} alt="Chloe with her graduation gown."></img>
                             <h2>Chloe graduates</h2>
                             <small>December 2021</small>
                             <p>Chloe graduates from Penn State and begins looking for a post-bacc position. Michael and
@@ -127,7 +127,7 @@ function OurStory() {
                     <div className="timelineEvent">
                         <span className="arrow"></span>
                         <div className="eventText">
-                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/charleston.jpg`}></img>
+                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/charleston.jpg`} alt="Chloe and Michael grin excitedly holding the key to their first apartment."></img>
                             <h2>Moving to Charleston, SC</h2>
                             <small>March 2022</small>
                             <p>Chloe gets a position at the Medical University of South Carolina and they move to
@@ -138,7 +138,7 @@ function OurStory() {
                     <div className="timelineEvent">
                         <span className="arrow"></span>
                         <div className="eventText">
-                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/adoptAppa.JPG`}></img>
+                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/adoptAppa.JPG`} alt="Michael and Chloe hold Appa for a smiling family photo."></img>
                             <h2>A new family member</h2>
                             <small>August 2022</small>
                             <p>Michael and Chloe adopt Appa!</p>
@@ -152,7 +152,7 @@ function OurStory() {
                     <div className="timelineEvent">
                         <span className="arrow"></span>
                         <div className="eventText">
-                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/sellersville.jpg`}></img>
+                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/sellersville.jpg`} alt="Much older now, Michael and Chloe pose again with Appa for a family photo."></img>
                             <h2>Moving to Sellersville, PA</h2>
                             <small>July 2025</small>
                             <p>Michael, Chloe, and Appa finally move back to Pennsylvania to be closer to family.</p>
@@ -161,7 +161,7 @@ function OurStory() {
                     <div className="timelineEvent">
                         <span className="arrow"></span>
                         <div className="eventText">
-                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/proposal.JPG`}></img>
+                            <img src={`${import.meta.env.BASE_URL}/images/storyPage/proposal.JPG`} alt="Michael proposes to Chloe in the Penn State gazebo."></img>
                             <h2>Engaged!</h2>
                             <small>August 16, 2025</small>
                             <p>To celebrate their 7 year anniversary, Michael and Chloe visit Penn State for the first

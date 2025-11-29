@@ -74,6 +74,7 @@ function Gallery() {
 
             lightbox.classList.remove("hidden");
             lightboxImg.src = img.src;
+            lightboxImg.alt = img.title;
             caption.textContent = img.year + ": " + img.description;
         }
 
@@ -84,6 +85,7 @@ function Gallery() {
             const img = galleryImages[index];
             if (!img) return;
             lightboxImg.src = img.src;
+            lightboxImg.alt = img.title;
             caption.textContent = img.year + ": " + img.description;
         }
 
