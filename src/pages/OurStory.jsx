@@ -6,7 +6,7 @@ function OurStory() {
         <div className="storyHeading">
             <h2>Major moments</h2>
             <p>Read this page to learn more about the major milestones of our relationship. Some of our favorite moments are the little experiences we've had together. Have a look at some of our
-                favorite memories by exporing the <Link to="/gallery">Gallery</Link>.</p>
+                favorite memories by exporing the <Link to="/gallery" className="storyLink">Gallery</Link>.</p>
         </div>
         <div className="timelineContainer">
             <section className="timelineYear">

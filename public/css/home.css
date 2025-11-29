@@ -18,7 +18,7 @@
     font-size: 1.5em;
 }
 
-p {
+.homeText {
     margin: 1em 0em;
 }
 
@@ -26,6 +26,14 @@ p {
     width: 100%;
     height: 60vh;
     object-fit: cover;
+}
+
+.homeLinks {
+    color: #263329;
+}
+
+.homeLinks:visited {
+    color: #78937f;
 }
 
 .engagementStoryContainer {
@@ -51,6 +59,7 @@ p {
     .engagementStoryContainer {
         flex-direction: column;
         align-items: center;
+        padding: 0.5em;
     }
 
     .engagementStoryContainer img {

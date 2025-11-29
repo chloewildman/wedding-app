@@ -16,7 +16,7 @@ function Rsvp() {
             const attendance = rsvpForm.attendance.value;
             const onLoc = rsvpForm.onLoc.value;
             const allergies = rsvpForm.allergies.value;
-            const allergyExp = rsvpForm.allergyExp.value;
+            const allergyExp = rsvpForm.allergyExp?.value || '';
             const items = document.querySelectorAll('input[name="items"]');
             const atLeastOneItem = Array.from(items).some(checkbox => checkbox.checked);
 

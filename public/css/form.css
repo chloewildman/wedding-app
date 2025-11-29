@@ -71,3 +71,14 @@ label {
     background-color: #374a3c;
     color: white;
 }
+
+@media (max-width: 750px) {
+    .formContainer {
+        width: 80vw;
+    }
+    label {
+        width: 90%;
+        margin-top: 1.5em;
+    }
+}
+

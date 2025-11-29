@@ -35,7 +35,7 @@ function App() {
           <Route path="/rsvp" element={<Rsvp />} />
         </Routes>
         <div className="CountdownContainer">
-          <h1>
+          <h1 className="countdownTitle">
             Wedding Countdown
           </h1>
           <Countdown />
