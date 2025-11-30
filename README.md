@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# Chloe Wildman's Final Project - Chloe and Michael's Wedding Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To meet the assignment requirements, I built a wedding web application.
 
-Currently, two official plugins are available:
+## Inspiration/Acknowledgements/Previous Experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Module 1 Assignment & Feedback
 
-## React Compiler
+The RSVP page took inspiration and base code from my Module 1 assignment, which was improved by implementing feedback received from that assignment. The fields were modified to suit an RSVP form, and I combined it with React to hide the descriptive allergies field when a user says "yes" to having allergies. I had originally gone with a JS solution suggested earlier in the semester, but this seems cleaner!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Module 2 Assignment
 
-## Expanding the ESLint configuration
+The async API call structure is used in the Location, Gallery, and Itinerary pages. The Gallery page most closely resembles my Module 2 assignment.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Module 3
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Module 4
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Module 5 & 6
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### WAD100 Course
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The use of reset.css and some CSS was inspired by the WAD100 course. Here are the key items I used as inspiration:
+- The use of reset.css (not really able to make this one unique!)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Online resources
+https://www.w3schools.com/howto/howto_js_topnav.asp
+https://stackoverflow.com/questions/11787665/making-sure-at-least-one-checkbox-is-checked
+https://giscience.github.io/openrouteservice/api-reference/endpoints/matrix/
+https://openrouteservice.org/dev/#/api-docs/v2/matrix/{profile}/post
+https://www.bing.com/videos/riverview/relatedvideo?q=how+to+make+a+timeline+on+a+website&mid=0F83AC76DEA17225DF270F83AC76DEA17225DF27&FORM=VIRE -> wow this method did not work for me and I spent a few hours trying to understand why, but it also just felt clunky and a bit hyper-specific (lots of hard coding pixels). Working on my own grid solution.
+https://www.w3schools.com/howto/howto_js_lightbox.asp
+https://dev.to/jinn_khan/react-17-vs-react-18-root-render-changes-4e11
+https://www.freecodecamp.org/news/build-a-countdown-timer-with-react-step-by-step/
+https://www.w3schools.com/howto/howto_js_countdown.asp
+https://www.youtube.com/watch?v=i8fAO_zyFAM&t=881s - build a popup component in react JS
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+I tried very hard to use TS for my React portion, but ran into conflicts which were too time consuming to continue trying to resolve
+
+After first using Vite, and only having the one HTML document, I realized the styling was conflicting since it was global in the HTML doc and went back though my modularized css to make everything unique, then realized it was better practice to import the css into the components.
+
+## How My Project Meets Minimum Requirements
+
+
+### Validity
+- Valid: 
+    - https://validator.w3.org/
+    - http://jigsaw.w3.org/css-validator/ 
+
+
+## How My Project Exceeds Minimum Requirements
+- Flexbox
+- Grid
+- React	
+- CSS Media Queries
+  - Every page contains media queries to make the page responsive on mobile
+    - Home
+    - Our Story
+    - Location
+    - Itinerary
+    - Gallery
+    - RSVP
+- External API calls
+  - Location page
+    - OpenRoute
+    - Geoapify Places API
