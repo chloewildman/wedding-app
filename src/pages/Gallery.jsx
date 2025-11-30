@@ -98,7 +98,7 @@ function Gallery() {
         <div className="galleryPage">
             <h2 className="galleryHeading">Gallery</h2>
             <p>Click on an image to learn more about the memory.</p>
-            <div id="imgContainer"></div>
+            <section id="imgContainer"></section>
             <div id="lightbox" className="lightbox hidden">
                 <span className="close">&times;</span>
                 <div className="lightboxGrid">

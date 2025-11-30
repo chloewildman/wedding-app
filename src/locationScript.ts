@@ -146,8 +146,8 @@ class Place {
         }
     }
 
-    toCardElement(): HTMLDivElement {
-        const card = document.createElement('div');
+    toCardElement(): HTMLElement {
+        const card = document.createElement('article');
         card.className = 'localCard';
         const cuisineTags = this.cuisine
             .map(c => `<span class="cuisine-tag">${c}</span>`)

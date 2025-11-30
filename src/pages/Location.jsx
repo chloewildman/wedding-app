@@ -25,7 +25,7 @@ function Location() {
 
     return (
         <div className="locationPage">
-            <div className="eventLocation">
+            <section className="eventLocation">
                 <img src={`${import.meta.env.BASE_URL}/images/dunluceCastle.jpg`} alt="Image of Dunluce Castle in Ireland." className="locationImg"></img>
                 <div className="locationDesc">
                     <h2 className="locationHeader">Castle Lorem Ipsum, Pennsylvania</h2>
@@ -35,18 +35,18 @@ function Location() {
                     <p>Those who are invited to attend the main ceremony may also stay at the castle with us at no cost. We
                         look forward to making long-lasting, intimate memories with our family and friends.</p>
                 </div>
-            </div>
-            <div className="userLocation">
+            </section>
+            <section className="userLocation">
                 <p>Want to know how far you are from the venue?</p>
                 <button id="getLoc" className="getLoc" type="getLoc" onClick={getLocRequest}>Check distance from venue</button>
                 <p id="locationData"></p>
                 <p id="distanceData"></p>
                 <button id="googleRef" className="googleRef hidden">Get directions</button>
-            </div>
-            <div className="local">
+            </section>
+            <section className="local">
                 <h2 className="locationHeader">Want something to eat or drink? Here are some restaurants within just 1 mile!</h2>
                 <div id="localData"></div>
-            </div>
+            </section>
             <script src="../dist/locationScript.js"></script>
         </div>
     )

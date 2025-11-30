@@ -44,12 +44,12 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/rsvp" element={<Rsvp />} />
         </Routes>
-        <div className="CountdownContainer">
+        <section className="CountdownContainer">
           <h1 className="countdownTitle">
             Wedding Countdown
           </h1>
           <Countdown />
-        </div>
+        </section>
 
       </main>
       <footer>
