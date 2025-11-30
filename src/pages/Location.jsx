@@ -6,7 +6,6 @@ import "../css/style.css"
 
 function Location() {
     useEffect(() => {
-        // Run local places fetch when component mounts
         getLocalData();
     }, []);
 
