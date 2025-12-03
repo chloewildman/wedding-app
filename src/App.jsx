@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
 import { useState, useEffect } from 'react';
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 import Countdown from "./components/Countdown.jsx";
 import Popup from "./components/Popup.jsx";
 import Home from "./pages/Home.jsx";
@@ -20,21 +22,7 @@ function App() {
 
   return (
     <div>
-      <header id="#top">
-        <img src="./images/headerAlt.png" alt="'Michael and Chloe' in cursive."></img>
-        <input type="checkbox" id="navButton" className="navButton"></input>
-        <label htmlFor="navButton" className="navIcon">☰ Menu</label>
-        <nav>
-          <ul className="navBar">
-            <li><NavLink to="/" className="navLink">Home</NavLink></li>
-            <li><NavLink to="/story" className="navLink">Our Story</NavLink></li>
-            <li><NavLink to="/location" className="navLink">Location</NavLink></li>
-            <li><NavLink to="/itinerary" className="navLink">Itinerary</NavLink></li>
-            <li><NavLink to="/gallery" className="navLink">Gallery</NavLink></li>
-            <li><NavLink to="/rsvp" className="navLink">RSVP</NavLink></li>
-          </ul>
-        </nav>
-      </header>
+      <Header></Header>
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -52,11 +40,7 @@ function App() {
         </section>
 
       </main>
-      <footer>
-        &copy; 2025 Chloe Wildman - All rights reserved
-        <hr></hr>
-        <a href="#top" className="toTop">Back to Top</a>
-      </footer>
+      <Footer></Footer>
       <Popup trigger={popup} setTrigger={setPopup}>
       </Popup>
     </div>
