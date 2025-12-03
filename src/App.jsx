@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import Countdown from "./components/Countdown.jsx";
 import Popup from "./components/Popup.jsx";
+import ToTop from "./components/ToTop.jsx";
 import Home from "./pages/Home.jsx";
 import OurStory from "./pages/OurStory.jsx";
 import Location from "./pages/Location.jsx";
@@ -24,6 +25,7 @@ function App() {
     <div>
       <Header></Header>
       <main>
+        <ToTop></ToTop>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/story" element={<OurStory />} />

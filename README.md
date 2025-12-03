@@ -34,6 +34,7 @@ https://dev.to/jinn_khan/react-17-vs-react-18-root-render-changes-4e11
 https://www.freecodecamp.org/news/build-a-countdown-timer-with-react-step-by-step/
 https://www.w3schools.com/howto/howto_js_countdown.asp
 https://www.youtube.com/watch?v=i8fAO_zyFAM&t=881s - build a popup component in react JS
+https://dev.to/kunalukey/scroll-to-top-when-route-changes-reactjs-react-router-3bgn - Scroll to top when selecting another page - this wasn't significantly modified as it seems to be a standard strategy with little room for individuality.
 
 I tried very hard to use TS for my React portion, but ran into conflicts which were too time consuming to continue trying to resolve
 
