@@ -20,6 +20,8 @@ The styling of my header and footer are very similar to my Module 3 assignment. 
 
 ### Module 5 & 6
 
+I used React on the Itinerary page in a similar way to what I did for the Module 5 homework. I actually started using React Routing in my final project before completing the Module 6 homework, so I suppose Module 6 was inspired through my final project rather than the other way around!
+
 ### WAD100 Course
 
 The use of reset.css and some CSS was inspired by the WAD100 course. Here are the key items I used as inspiration:
@@ -61,14 +63,35 @@ https://react.dev/learn/conditional-rendering
 On Nov 1st, I requested that my final project topic could be a wedding website with a fake date and location which was approved by Josh Hanson. This is a Single Page Application but contains 6 content "pages". This meets the requirement of 5-10 pages. In this application, I showcase the skills I learned in this course, including HTML5, CSS 3, JavaScript, TypeScript, React, and layout and design (such as flex and grid). The application demonstrates client side validation of a web form and manages updates to the DOM.
 
 - HTML5
+  - Each page has at least 5 HTML5 semantic elements of various types, such as header, main, footer, nav, sections, articles, in addition to semantic elements like headings, paragraphs, and links.
 - CSS 3 + layout & design
+  - Consistent theming and styling in color and font family.
+  - Use of combinators
+    - Descendant combinator (space) -> home.css, location.css, story.css, style.css
+    - Adjacent sibling combinator (+) -> style.css
+  - Use of pseudo-classes
+    - :hover -> form.css, gallery.css, location.css, style.css
+    - :nth-child(n) -> story.css
+    - :checked -> style.css
+    - :visited -> home.css, story.css
+  - Use of pseudo-elements
+    - ::before -> itinerary.css, story.css, style.css
+    - ::after -> itinerary.css, location.css
+  - Use of media queries (see <b>How My Project Exceeds Minimum Requirements</b>)
+  - Each page uses at least either flexbox or grid, if not both (see <b>How My Project Exceeds Minimum Requirements</b>)
 - JavaScript
+  - Itinerary
+  - Gallery
+  - RSVP
 - TypeScript
   - TypeScript is used on the Location page (locationScript.ts)
   - During Module 4, I found that I was most interested in using TypeScript for API calls, so it felt most appropriate to implement it for this page. I tried very hard to use TS for my React portion, but ran into conflicts which were too time consuming to continue trying to resolve.
 - React
   - The minimum requirement is at least one React component. My header, footer, wedding countdown, pop-up, and the rendering of the itinerary data are all individual React components. Main content is swapped on each page through React Router.
 - Website usability
+  - All links are functional, page relationships are clear, form allows submission or writes clear errors to the DOM, speeds are normal
+  - I used the WAVE browser extension to make sure there were not accessibility errors on each page
+  - After implementing React for all pages, I noticed that the scroll position does not reset when routed to another "page", so I search online to make that experience more user-friendly.
 
 ### Validity
 - Valid: 
