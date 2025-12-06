@@ -16,7 +16,7 @@ interface DistanceData {
     routes: Route[];
 }
 
-async function fetchDistanceData(latitude: number, longitude: number, venueLatitude: number, venueLongitude: number): Promise<DistanceData | undefined> {
+async function fetchDistanceData(latitude: number, longitude: number, venueLatitude: number, venueLongitude: number): Promise<DistanceData> {
     const apiKey = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImM0Y2VkZWM5NmU4YzRhMjc4ODVkODI1NmYzM2JhZmNiIiwiaCI6Im11cm11cjY0In0=';
     const apiURL = 'https://api.openrouteservice.org/v2/directions/driving-car';
 
@@ -41,7 +41,7 @@ async function fetchDistanceData(latitude: number, longitude: number, venueLatit
         return data;
     } catch (err) {
         console.error('Error fetching distance data:', err);
-        return undefined;
+        return { routes: [] };
     }
 }
 
@@ -50,9 +50,9 @@ async function getDistanceData(latitude: number, longitude: number, venueLatitud
     const distanceData = document.getElementById('distanceData');
     if (!distanceData) return;
 
-    const data: DistanceData | undefined = await fetchDistanceData(latitude, longitude, venueLatitude, venueLongitude);
+    const data: DistanceData = await fetchDistanceData(latitude, longitude, venueLatitude, venueLongitude);
 
-    if (data && data.routes && data.routes.length > 0) {
+    if (data?.routes?.length > 0) {
         const summary = data.routes[0].summary;
         const distanceMiles = (summary.distance / 1609.34).toFixed(2);
         const durationSec = summary.duration;
@@ -174,7 +174,7 @@ class Place {
     }
 }
 
-async function fetchLocalData(): Promise<GeoapifyResponse | undefined> {
+async function fetchLocalData(): Promise<GeoapifyResponse> {
     const apiKey = '89df25017fd14bee89a6a739b4bcc030';
     const apiURL = 'https://api.geoapify.com/v2/places';
 
@@ -191,17 +191,18 @@ async function fetchLocalData(): Promise<GeoapifyResponse | undefined> {
         return data;
     } catch (err) {
         console.log('Error fetching local data:', err);
+        return { features: [] };
     }
 }
 
 // Use Place objects
 async function getLocalData() {
-    const data: GeoapifyResponse | undefined = await fetchLocalData();
+    const data: GeoapifyResponse = await fetchLocalData();
     const container = document.getElementById('localData');
     if (!container) return;
     container.innerHTML = '';
 
-    if (data && data.features && data.features.length > 0) {
+    if (data?.features?.length) {
         const places: Place[] = data.features.map((f: Feature) => new Place(f.properties));
 
         places.forEach((place: Place) => {
