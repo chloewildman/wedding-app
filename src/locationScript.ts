@@ -202,7 +202,7 @@ async function getLocalData() {
     if (!container) return;
     container.innerHTML = '';
 
-    if (data?.features?.length) {
+    if (data?.features?.length > 0) {
         const places: Place[] = data.features.map((f: Feature) => new Place(f.properties));
 
         places.forEach((place: Place) => {
