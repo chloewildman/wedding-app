@@ -65,7 +65,7 @@ async function getDistanceData(latitude: number, longitude: number, venueLatitud
         }
         durationText += `${minutes} minute${minutes !== 1 ? 's' : ''}`;
 
-        distanceData.innerHTML = `Driving distance: ${distanceMiles} miles<br>Estimated time: ${durationText} <br> <i>*This estimate is provided by OpenSource, not Google, and therefore may vary from Google directions.</i>`;
+        distanceData.innerHTML = `Driving distance: ${distanceMiles} miles<br>Estimated time: ${durationText} <br> <i>*This estimate is provided by OpenRoute, not Google, and therefore may vary from Google directions.</i>`;
     } else {
         distanceData.textContent = "Unable to retrieve distance data.";
     }
