@@ -78,7 +78,7 @@ function Gallery() {
 
         function updateLightboxContent(img) {
             lightboxImg.src = img.src;
-            lightboxImg.alt = img.title;
+            lightboxImg.alt = img.alt;
             caption.textContent = img.year + ": " + img.description;
         }
 
