@@ -117,28 +117,49 @@ On Nov 1st, I requested that my final project topic could be a wedding website w
 
 ## How My Project Exceeds Minimum Requirements
 - Flexbox
+  - Header
+    - Stack child elements of header vertically (column) and centered vertically & horizontally.
+  - Nav
+    - Set the child elements of the nav bar side by side (row) and centered horizontally.
+    - In the media query, use flex on the nav icon for centering, and when the nav checkbox is checked, change the navbar from hidden to unhidden by applying flex under those conditions.
+  - Footer
+    - Stack the child elements of footer vertically (column) and centered vertically & horizontally.
+  - Countdown
+    - Stack the child elements of CountdownContainter vertically (column) and centered vertically & horizontally.
+  - Popup
+    - Use flex to center the child of popup, popupInner.
+    - popupInner has flex to stack its child elements vertically (column).
   - Home
-  - Header, Nav, Footer
+    - Stack the child elements of homeMain vertically (column).
+    - Set the child elements of engagementStoryContainer side by side (row).
+    - In the media query, change the child elements of engagementStoryContainer to stack vertically (column).
   - Itinerary
+    - Stack the child elements of itinerary vertically (column).
   - Location
+    - Stack the child elements of locationPage vertically (column).
+    - Set the child elements of eventLocation side by side (row/default).
+    - In the media query, change the child elements of eventLocation to stack vertically (column).
 - Grid
   - Our Story
+    - Make the event elements into grids consisting of 3 columns.
+    - In the media query, change this to 1 column.
   - RSVP
+    - Use grid to stack and center the items in formContainer.
   - Gallery
+    - Make the imgContainer element into a grid consisting of 3 columns.
+    - Make the lightbox element into a grid consisting of 3 columns, where the majority of the space is taken by the center column (for the image and caption).
+      - Previous button is assigned to column 1 row 1, the image (lightbox content) is assigned to column 2 row 1, and next button is assigned to column 3 row 1. The caption is assigned to column 2 row 2. This was for greater control over how much space was dedicated to the image and caption.
+    - In the media query, change the imgContainer element to a grid of 1 column.
   - Itinerary
+    - Make each ItineraryList a grid of 3 columns.
+    - In the media query, change this to only 1 column.
 - React	
   - Each page is a React component that is swapped out in main
   - Individual components:
     - Header, Footer, Countdown, Popup, ToTop, ItineraryContainer
 - CSS Media Queries
   - Every page contains media queries to make the page responsive on mobile
-    - Home
-    - Our Story
-    - Location
-    - Itinerary
-    - Gallery
-    - RSVP
-- External API calls
+- External API calls (see <b>TypeScript</b> and <b>Online resources</b>)
   - Location page
     - Geolocation
     - OpenRoute
