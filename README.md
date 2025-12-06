@@ -1,6 +1,6 @@
 # Chloe Wildman's Final Project - Chloe and Michael's Wedding Site
 
-To meet the assignment requirements, I built a wedding web application.
+To meet the assignment requirements, I created a wedding web application based around my recent engagement to my fiance, Michael.
 
 ## Inspiration/Acknowledgements/Previous Experience
 
