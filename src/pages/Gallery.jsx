@@ -38,6 +38,7 @@ function Gallery() {
                 galleryImages = document.querySelectorAll(".galleryImages");
                 galleryImages.forEach(img => {
                     img.addEventListener("click", () => {
+                        currentIndex = parseInt(img.dataset.index);
                         openLightbox(img);
                     });
                 });
@@ -47,13 +48,6 @@ function Gallery() {
         }
 
         fetchImagesData();
-
-        galleryImages.forEach(img => {
-            img.addEventListener("click", () => {
-                currentIndex = parseInt(img.dataset.index);
-                openLightbox(img);
-            });
-        });
 
         closeBtn.addEventListener("click", closeLightbox);
 
