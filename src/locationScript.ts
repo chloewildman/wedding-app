@@ -206,16 +206,11 @@ async function getLocalData() {
         const places: Place[] = data.features.map((f: Feature) => new Place(f.properties));
 
         places.forEach((place: Place) => {
-            console.log(place);
             container.appendChild(place.toCardElement());
         });
     } else {
         container.textContent = 'No nearby places found.';
     }
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    getLocalData();
-});
 
 export { getLocalData, getDistanceData, successCallback, errorCallback };
