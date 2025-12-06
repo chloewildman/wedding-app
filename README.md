@@ -80,9 +80,10 @@ On Nov 1st, I requested that my final project topic could be a wedding website w
   - Use of media queries (see <b>How My Project Exceeds Minimum Requirements</b>)
   - Each page uses at least either flexbox or grid, if not both (see <b>How My Project Exceeds Minimum Requirements</b>)
 - JavaScript
-  - Itinerary
-  - Gallery
-  - RSVP
+  - Itinerary -> JavaScript and JSX is used in the ItineraryContainer.jsx file. I used async await and fetch to pull the itinerary events from the schedule.json file, pass them as props to Itinerary(), which separates the events into day 1 and day 2 (by the day property in the data) and calls on ItineraryList() to render the event contents. Itinerary List() takes the events for each day and maps them into a rendered list (using list rendering from Module 5) by calling on ItineraryEvent(). Finally, ItineraryEvent() is given each event and takes its time and activity properties and renders the list element HTML. JSX is also in the Itinerary.jsx file, but only to render the rest of the page contents.
+  - Gallery -> 
+  - RSVP -> Javascript and JSX is used in the Rsvp.jsx file. The purpose of the JavaScript code is to complete client-side form validation. At the start of this code, elements and form values are taken in, any errors messages are reset, and regex validation is set. Then, all relevant fields are run through the validateEntry() check, where the error message is generated when the value doesn't match the pattern or value expected. If all entries are valid, the form is hidden, and a success message is displayed. Then, JSX displays the form contents, and I used React's conditional rendering to only present the allergyExpField when the allergies field is "1, Yes"
+    - Regex: My email validation checks for 1 character, @, 1 character, a period (.), followed by at least 2 characters, and first name/last name must be at least two characters. 
 - TypeScript
   - TypeScript is used on the Location page (locationScript.ts)
   - During Module 4, I found that I was most interested in using TypeScript for API calls, so it felt most appropriate to implement it for this page. I tried very hard to use TS for my React portion, but ran into conflicts which were too time consuming to continue trying to resolve.
