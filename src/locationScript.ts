@@ -1,10 +1,22 @@
-
 // Venue coordinates
 const venueLatitude = 40.798214;
 const venueLongitude = -77.859909;
 
-// API
-async function fetchDistanceData(latitude: number, longitude: number, venueLatitude: number, venueLongitude: number) {
+// Open Route API
+interface RouteSummary {
+    distance: number;
+    duration: number;
+}
+
+interface Route {
+    summary: RouteSummary;
+}
+
+interface DistanceData {
+    routes: Route[];
+}
+
+async function fetchDistanceData(latitude: number, longitude: number, venueLatitude: number, venueLongitude: number): Promise<DistanceData | undefined> {
     const apiKey = 'eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImM0Y2VkZWM5NmU4YzRhMjc4ODVkODI1NmYzM2JhZmNiIiwiaCI6Im11cm11cjY0In0=';
     const apiURL = 'https://api.openrouteservice.org/v2/directions/driving-car';
 
@@ -25,18 +37,20 @@ async function fetchDistanceData(latitude: number, longitude: number, venueLatit
             body: JSON.stringify(body)
         });
 
-        const data = await res.json();
+        const data: DistanceData = await res.json();
         return data;
     } catch (err) {
-        console.log('Error fetching distance data:', err);
+        console.error('Error fetching distance data:', err);
+        return undefined;
     }
 }
 
-async function getDistanceData(latitude: number, longitude: number, venueLatitude: number, venueLongitude: number) {
+
+async function getDistanceData(latitude: number, longitude: number, venueLatitude: number, venueLongitude: number): Promise<void> {
     const distanceData = document.getElementById('distanceData');
     if (!distanceData) return;
 
-    const data = await fetchDistanceData(latitude, longitude, venueLatitude, venueLongitude);
+    const data: DistanceData | undefined = await fetchDistanceData(latitude, longitude, venueLatitude, venueLongitude);
 
     if (data && data.routes && data.routes.length > 0) {
         const summary = data.routes[0].summary;
