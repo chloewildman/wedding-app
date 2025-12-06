@@ -67,14 +67,9 @@ function Gallery() {
             showImage(currentIndex);
         });
 
-        lightbox.addEventListener("click", (e) => {
-            if (e.target === lightbox) closeLightbox();
-        });
-
         function openLightbox(img) {
             lightbox.classList.remove("hidden");
             updateLightboxContent(img);
-
         }
 
         function closeLightbox() {
