@@ -114,7 +114,7 @@ function errorCallback(error: GeolocationPositionError) {
 }
 
 
-// API local data
+// Geoapify Places API
 interface PlaceProperties {
     name?: string;
     formatted?: string;
