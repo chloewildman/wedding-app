@@ -18,6 +18,8 @@ The styling of my header and footer are very similar to my Module 3 assignment. 
 
 ### Module 4
 
+This assignment informed my use of TypeScript, though since I adapted existing JavaScript code I had already written into TypeScript, it does not closely mirror my assignment.
+
 ### Module 5 & 6
 
 I used React on the Itinerary page in a similar way to what I did for the Module 5 homework. I actually started using React Routing in my final project before completing the Module 6 homework, so I suppose Module 6 was inspired through my final project rather than the other way around!
