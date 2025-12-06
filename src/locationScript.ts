@@ -1,6 +1,6 @@
 // Venue coordinates
-const venueLatitude = 40.798214;
-const venueLongitude = -77.859909;
+const venueLatitude: number = 40.798214;
+const venueLongitude: number = -77.859909;
 
 // Open Route API
 interface RouteSummary {
@@ -78,7 +78,7 @@ function successCallback(position: GeolocationPosition) {
 
     const latitude = position.coords.latitude;
     const longitude = position.coords.longitude;
-    const googleLink = `https://www.google.com/maps/dir/?api=1&origin=${latitude},${longitude}&destination=${venueLatitude},${venueLongitude}`;
+    const googleLink: string = `https://www.google.com/maps/dir/?api=1&origin=${latitude},${longitude}&destination=${venueLatitude},${venueLongitude}`;
 
     locationData.textContent = `Your location: Latitude: ${latitude}, Longitude: ${longitude}`;
 
