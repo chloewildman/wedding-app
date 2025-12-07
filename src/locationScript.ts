@@ -187,7 +187,7 @@ async function fetchLocalData(): Promise<GeoapifyResponse> {
 
     try {
         const res = await fetch(`${apiURL}?${params.toString()}`);
-        const data = await res.json();
+        const data: GeoapifyResponse = await res.json();
         return data;
     } catch (err) {
         console.log('Error fetching local data:', err);
