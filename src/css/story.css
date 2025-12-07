@@ -147,7 +147,7 @@ small {
 
 @media (max-width: 800px) {
     .events {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .arrow {
